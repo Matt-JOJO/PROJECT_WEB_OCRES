@@ -1,3 +1,34 @@
-.App {
+.test {
+  display: flex;
+  flex-wrap: nowwrap;
+  align-content: center;
+  align-items: baseline;
   text-align: center;
+  font-size: large;
+  color: white;
+  font-family: Alata;
+  background-color: #273460;
+  padding: 0;
+  margin: 0;
+}
+
+#set {
+  flex: 4%;
+  height: 5%;
+  width: 5%;
+}
+
+#photo {
+  height: 5%;
+  width: 5%;
+}
+
+@font-face {
+  font-family: "Alata";
+  src: url("./Alata/Alata-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Quicksand";
+  src: url("./Quicksand/Quicksand-VariableFont_wght.ttf") format("truetype");
 }
