@@ -3,7 +3,7 @@ import './Map.css';
 function Map(){
 return (
     <div className="map">
-
+        
     </div>
 )
 }

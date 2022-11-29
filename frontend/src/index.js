@@ -4,13 +4,23 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Map from './Map';
+import Pilote from './pilote';
+import Meteo from './meteo';
+import Maree from './maree';
+import Port from './port';
+import Graph from './graph';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <div>
       <App />
-      <Map/>
+      <Map />
+      <Pilote />
+      <Meteo />
+      <Maree />
+      <Port />
+      <Graph />
     </div>
   </React.StrictMode>
 );

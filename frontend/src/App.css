@@ -1,3 +1,7 @@
+body {
+  background-color: #273460;
+}
+
 .test {
   display: flex;
   flex-wrap: nowwrap;
@@ -6,10 +10,12 @@
   text-align: center;
   font-size: large;
   color: white;
-  font-family: Alata;
+  
   background-color: #273460;
   padding: 0;
-  margin: 0;
+  margin: 1%;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 #set {
@@ -23,12 +29,3 @@
   width: 5%;
 }
 
-@font-face {
-  font-family: "Alata";
-  src: url("./Alata/Alata-Regular.ttf") format("truetype");
-}
-
-@font-face {
-  font-family: "Quicksand";
-  src: url("./Quicksand/Quicksand-VariableFont_wght.ttf") format("truetype");
-}
