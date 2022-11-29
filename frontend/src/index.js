@@ -15,12 +15,14 @@ root.render(
   <React.StrictMode>
     <div>
       <App />
-      <Map />
-      <Pilote />
-      <Meteo />
-      <Maree />
-      <Port />
-      <Graph />
+      <div className="division">
+        <Map />
+        <div className="widgets"><Pilote />
+          <Meteo />
+          <Maree />
+          <Port />
+          <Graph /></div>
+      </div>
     </div>
   </React.StrictMode>
 );

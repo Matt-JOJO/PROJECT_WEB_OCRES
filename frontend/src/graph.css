@@ -1,9 +1,9 @@
 .graph {
-    position: absolute;
+    position: relative;
     width: 1038px;
     height: 303px;
-    left: 560px;
-    top: 728px;
+    /*left: 560px;
+    top: 728px;*/
 
     background: #FFFFFF;
     box-shadow: 0px 9px 10px 5px rgba(0, 0, 0, 0.2);

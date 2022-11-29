@@ -1,9 +1,9 @@
 .port{
-    position: absolute;
+    position: relative;
 width: 588px;
 height: 318px;
-left: 980px;
-top: 360px;
+/*left: 980px;
+top: 360px;*/
 
 background: #FFFFFF;
 box-shadow: 0px 9px 10px 5px rgba(0, 0, 0, 0.2);
