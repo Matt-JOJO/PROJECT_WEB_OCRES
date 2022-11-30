@@ -12,14 +12,50 @@ code {
     monospace;
 }
 
-.division{
+.container{
   display: flex;
   flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  justify-items: flex-start;
+  align-items: flex-start;
+
+  margin:0;
+ 
 
 }
 
-.widgets{
-  display: flex;
-  flex-direction: column-reverse;
+.child{
+  display:flex;
+  flex-direction: row;
+  flex-wrap:wrap;
+  justify-content: flex-start;
+  margin-left: 2%;
   
 }
+
+.mm{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  flex-wrap: nowrap;
+  /*margin:1%;*/
+  
+}
+
+
+.pi{
+  
+  display: flex;
+  justify-content: flex-start;
+ 
+}
+
+.gr{
+  display: flex;
+  
+}
+
+
+
+
