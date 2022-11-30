@@ -4,10 +4,12 @@ import { Button } from './Button';
 
 // More on default export: https://storybook.js.org/docs/react/writing-stories/introduction#default-export
 export default {
-  title: 'Example/Button',
+  title: 'ChoiceButton',
   component: Button,
   // More on argTypes: https://storybook.js.org/docs/react/api/argtypes
   argTypes: {
+    handleClick:{action :"activate query"},
+    onHover:{action: "hovering"},
     backgroundColor: { control: 'color' },
   },
 };
@@ -15,26 +17,32 @@ export default {
 // More on component templates: https://storybook.js.org/docs/react/writing-stories/introduction#using-args
 const Template = (args) => <Button {...args} />;
 
-export const Primary = Template.bind({});
+export const Pilotes = Template.bind({});
 // More on args: https://storybook.js.org/docs/react/writing-stories/args
-Primary.args = {
+Pilotes.args = {
   primary: true,
-  label: 'Button',
+  backgroundColor: 'rgba(249, 154, 65, 1)',
+  size: "lg",
+  label: 'Pilotes',
 };
 
-export const Secondary = Template.bind({});
-Secondary.args = {
-  label: 'Button',
+export const Bateaux = Template.bind({});
+Bateaux.args = {
+  backgroundColor: 'rgba(249, 154, 65, 1)',
+  size: "lg",
+  label: 'Bateaux',
 };
 
-export const Large = Template.bind({});
-Large.args = {
-  size: 'large',
-  label: 'Button',
+export const Conteneurs = Template.bind({});
+Conteneurs.args = {
+  backgroundColor: 'rgba(249, 154, 65, 1)',
+  size: "lg",
+  label: 'Conteneurs',
 };
 
-export const Small = Template.bind({});
-Small.args = {
-  size: 'small',
-  label: 'Button',
+export const Modifier = Template.bind({});
+Modifier.args = {
+  backgroundColor: 'rgba(249, 154, 65, 1)',
+  size: "lg",
+  label: 'Modifier',
 };

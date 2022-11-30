@@ -40,6 +40,7 @@ Button.propTypes = {
    * Optional click handler
    */
   onClick: PropTypes.func,
+  onHover: PropTypes.func,
 };
 
 Button.defaultProps = {
@@ -47,4 +48,5 @@ Button.defaultProps = {
   primary: false,
   size: 'medium',
   onClick: undefined,
+  onHover: undefined,
 };
